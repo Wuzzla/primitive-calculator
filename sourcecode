@@ -1,0 +1,30 @@
+public class Taschenrechner 
+{
+    double zahl1;
+    double zahl2;
+    
+    public double addieren() {
+        return zahl1 + zahl2;
+    }
+    
+    public double minus() {
+        return  zahl1 - zahl2;
+    }
+    
+    public double mal() {
+        return  zahl1 * zahl2;
+    }
+    
+    public double dividieren() {
+        return  zahl1 / zahl2;
+    }
+    
+    public void setZahl1(double neuZahl1) {
+        this.zahl1 = neuZahl1;
+    }
+    
+    public void setZahl2(double neuZahl2) {
+        this.zahl2 = neuZahl2;
+    }
+    
+}
