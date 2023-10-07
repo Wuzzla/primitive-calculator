@@ -7,11 +7,11 @@ public class Taschenrechner
         return zahl1 + zahl2;
     }
     
-    public double minus() {
+    public double subtrahieren() {
         return  zahl1 - zahl2;
     }
     
-    public double mal() {
+    public double multiplizieren() {
         return  zahl1 * zahl2;
     }
     
@@ -19,12 +19,12 @@ public class Taschenrechner
         return  zahl1 / zahl2;
     }
     
-    public void setZahl1(double neuZahl1) {
-        this.zahl1 = neuZahl1;
+    public void setZahl1(double zahl1) {
+        this.zahl1 = zahl1;
     }
     
-    public void setZahl2(double neuZahl2) {
-        this.zahl2 = neuZahl2;
+    public void setZahl2(double zahl2) {
+        this.zahl2 = zahl2;
     }
     
 }
